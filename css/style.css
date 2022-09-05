@@ -1,8 +1,24 @@
-
 h1{
   font-size: 50px;
 }
 
+ul{
+  list-style-position: inside
+}
+
+ul,li{
+  margin: 0;
+  padding: 0
+}
+
+table{
+  width: 100%;
+}
+
+thead{
+  background-color:dodgerblue;
+  color:antiquewhite;
+}
 #colore-logo{
   background-color: #3596eb;
 }
@@ -11,6 +27,8 @@ h1{
   width: 200px;
   padding-top: 50px;
 }
+
+
 
 .testo-intestazione{
   color:gray;
@@ -23,4 +41,16 @@ h1{
 
 .nome-autore{
   color: cornflowerblue;
+}
+
+.evidenzia{
+  background-color: yellow;
+}
+
+.riga-colorata{
+  background-color: rgb(173, 248, 248);
+}
+
+.colonna-grande{
+  width: 50%
 }
