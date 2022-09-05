@@ -1,3 +1,12 @@
+* {
+  margin-left: 0%;
+}
+
+main {
+  margin-left: 0.5%;
+}
+
+
 h1 {
   font-size: 50px;
 }
@@ -35,21 +44,12 @@ h3 {
 }
 
 footer {
- margin-top: 30px;
+  margin-top: 30px;
 }
 
-#sfondo-logo {
-  background-color: #3596eb;
-  background-image: url(/img/pattern.png);
-  height: 175px;
+.margine-sinistro {
+  margin-left: 0.5%;
 }
-
-#logo {
-  width: 225px;
-  padding-top: 100px;
-}
-
-
 
 .testo-intestazione {
   color:gray;
@@ -61,7 +61,7 @@ footer {
 }
 
 .nome-autore {
-  color: cornflowerblue;
+  color:rgb(0, 213, 255);
 }
 
 .evidenzia {
@@ -86,4 +86,16 @@ footer {
   width: 300px;
   height: 200px;
   background-image: url(/img/graph.jpg);
+}
+
+#sfondo-logo {
+  background-color: #3596eb;
+  background-image: url(/img/pattern.png);
+  height: 175px;
+}
+
+#logo {
+  width: 225px;
+  padding-top: 100px;
+  padding-left: 10px;
 }
