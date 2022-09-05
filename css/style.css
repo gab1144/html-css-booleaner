@@ -13,19 +13,40 @@ ul,li {
 
 table {
   width: 100%;
+  margin-top: 30px;
 }
 
 thead {
   background-color:dodgerblue;
   color:antiquewhite;
 }
-#colore-logo {
+
+h2 {
+  color: grey;
+  font-size: 15px;
+}
+
+h3 {
+  color: #FFFFFF;
+  font-size: 140%;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+footer {
+ margin-top: 30px;
+}
+
+#sfondo-logo {
   background-color: #3596eb;
+  background-image: url(/img/pattern.png);
+  height: 175px;
 }
 
 #logo {
-  width: 200px;
-  padding-top: 50px;
+  width: 225px;
+  padding-top: 100px;
 }
 
 
@@ -53,4 +74,16 @@ thead {
 
 .colonna-grande {
   width: 50%
+}
+
+.box {
+  width: 300px;
+  height: 200px;
+  background-image: url(/img/monitor.jpg);
+}
+
+.box-secondary {
+  width: 300px;
+  height: 200px;
+  background-image: url(/img/graph.jpg);
 }
