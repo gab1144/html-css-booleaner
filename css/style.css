@@ -1,16 +1,24 @@
+/*margini generali*/
 * {
   margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
 }
 
+/*margini main*/
 main {
   margin-left: 0.5%;
+  margin-right: 0.5%;
 }
 
-
+/*grandezza font h1 e margini*/
 h1 {
   font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 10px;
 }
 
+/*posizione e margini lista*/
 ul {
   list-style-position: inside
 }
@@ -20,80 +28,103 @@ ul,li {
   padding: 0
 }
 
+/*dimensioni tabella*/
 table {
   width: 100%;
   margin-top: 30px;
 }
 
+/*sfondo intestazione tabella*/
 thead {
   background-color:dodgerblue;
   color:antiquewhite;
 }
 
+/*font h2*/
 h2 {
   color: grey;
   font-size: 15px;
 }
 
+/*font h3*/
 h3 {
   color: #FFFFFF;
-  font-size: 140%;
   font-weight: bold;
   padding-left: 10px;
   padding-top: 10px;
 }
 
+/*margini footer*/
 footer {
   margin-top: 30px;
-}
-
-.margine-sinistro {
   margin-left: 0.5%;
 }
 
+/*margine header*/
+.margine-header {
+  margin-left: 0.5%;
+}
+
+/*formattazione testo header*/
 .testo-intestazione {
   color:gray;
 }
 
+/*formattazione prima riga testo header*/
 .autore {
   font-weight: bold;
   font-size: 20px;
 }
 
+/*testo colorato header*/
 .nome-autore {
   color:rgb(0, 213, 255);
 }
 
+/*sfondo testo paragrafi*/
 .evidenzia {
   background-color: yellow;
 }
 
+/*sfondo righe tabella*/
 .riga-colorata {
   background-color: rgb(173, 248, 248);
 }
 
+/*dimensione ultima colonna tabella*/
 .colonna-grande {
   width: 50%
 }
 
+/*primo box con immagine*/
 .box {
-  width: 300px;
-  height: 200px;
+  width: 200px;
+  height: 150px;
   background-image: url(/img/monitor.jpg);
+  background-size: cover;
 }
 
+/*secondo box con immagine*/
 .box-secondary {
-  width: 300px;
-  height: 200px;
+  width: 200px;
+  height: 150px;
   background-image: url(/img/graph.jpg);
+  background-size: cover;
 }
 
+/*dimensioni margine superiore*/
+.margine-superiore{
+  margin-top: 20px;
+}
+
+/*sfondo logo header*/
 #sfondo-logo {
   background-color: #3596eb;
   background-image: url(/img/pattern.png);
   height: 175px;
 }
 
+/*dimensione e posizione logo header*/
 #logo {
   width: 225px;
   padding-top: 100px;
