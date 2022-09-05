@@ -1,56 +1,56 @@
-h1{
+h1 {
   font-size: 50px;
 }
 
-ul{
+ul {
   list-style-position: inside
 }
 
-ul,li{
+ul,li {
   margin: 0;
   padding: 0
 }
 
-table{
+table {
   width: 100%;
 }
 
-thead{
+thead {
   background-color:dodgerblue;
   color:antiquewhite;
 }
-#colore-logo{
+#colore-logo {
   background-color: #3596eb;
 }
 
-#logo{
+#logo {
   width: 200px;
   padding-top: 50px;
 }
 
 
 
-.testo-intestazione{
+.testo-intestazione {
   color:gray;
 }
 
-.autore{
+.autore {
   font-weight: bold;
   font-size: 20px;
 }
 
-.nome-autore{
+.nome-autore {
   color: cornflowerblue;
 }
 
-.evidenzia{
+.evidenzia {
   background-color: yellow;
 }
 
-.riga-colorata{
+.riga-colorata {
   background-color: rgb(173, 248, 248);
 }
 
-.colonna-grande{
+.colonna-grande {
   width: 50%
 }
